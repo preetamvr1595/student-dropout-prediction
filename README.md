@@ -2,7 +2,9 @@
 
 An **early-warning system that flags college students likely to drop out after their first semester**, built as a complete machine-learning pipeline: data analysis → baselines → gradient-boosted models → experiment tracking → explanations → REST API → container deployment.
 
-![Python](https://img.shields.io/badge/Python-3.12-blue) ![LightGBM](https://img.shields.io/badge/LightGBM-4.x-green) ![MLflow](https://img.shields.io/badge/MLflow-tracking-0194E2) ![FastAPI](https://img.shields.io/badge/FastAPI-API-009688) ![Docker](https://img.shields.io/badge/Docker-ready-2496ED) ![tests](https://img.shields.io/badge/API%20tests-7%20passing-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.12-blue) ![LightGBM](https://img.shields.io/badge/LightGBM-4.x-green) ![MLflow](https://img.shields.io/badge/MLflow-tracking-0194E2) ![FastAPI](https://img.shields.io/badge/FastAPI-API-009688) ![Docker](https://img.shields.io/badge/Docker-ready-2496ED) 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![tests](https://img.shields.io/badge/API%20tests-7%20passing-brightgreen)
 
 > Project 1 of 5 in my ML-engineer portfolio series (pipeline → RAG → LLM fine-tuning → monitoring/drift → multimodal).
 
