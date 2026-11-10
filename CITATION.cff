@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: 'If you use this software, please cite it as below.'
+authors:
+  - family-names: 'V R'
+    given-names: 'Preetham'
+title: 'Student Dropout Risk Prediction — End-to-End ML Pipeline'
+version: 1.0.0
+date-released: 2026-11-10
+url: 'https://github.com/preetamvr1595/student-dropout-prediction'
