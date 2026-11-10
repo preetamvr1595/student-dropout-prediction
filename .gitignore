@@ -6,3 +6,10 @@ mlflow.db
 .pytest_cache/
 .venv/
 .npm-cache/
+
+# Environment
+.env
+*.log
+dist/
+build/
+*.egg-info/
