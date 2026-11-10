@@ -1,0 +1,11 @@
+-r requirements.txt
+# --- notebooks / experiments ---
+jupyter
+matplotlib
+seaborn
+scipy
+xgboost==3.4.1
+mlflow==3.17.2
+shap
+httpx
+pytest
