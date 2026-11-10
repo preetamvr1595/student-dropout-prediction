@@ -1,0 +1,8 @@
+# AWS Lambda *container image* (push to ECR, create Lambda from the image)
+FROM public.ecr.aws/lambda/python:3.12
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
+COPY src ${LAMBDA_TASK_ROOT}/src
+COPY api ${LAMBDA_TASK_ROOT}/api
+COPY models/model_sem1.joblib models/model_meta.json ${LAMBDA_TASK_ROOT}/models/
+CMD ["api.lambda_handler.handler"]
