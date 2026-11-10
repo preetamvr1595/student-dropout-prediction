@@ -1,7 +1,7 @@
 # --- API / runtime ---
 fastapi==0.162.0
 uvicorn==0.53.0
-pydantic>=2.7
+pydantic>=2.14.3
 mangum>=0.17
 joblib
 numpy
