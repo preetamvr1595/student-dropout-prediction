@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "student-dropout-prediction"
+version = "1.0.0"
+description = "End-to-end ML pipeline for student dropout risk prediction"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Preetham V R"}]
+keywords = ["machine-learning", "lightgbm", "mlops", "fastapi", "dropout-prediction"]
